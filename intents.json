@@ -1,0 +1,76 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi","How are you","Is anyone there?","Hello","Good day","Whats up"
+            ],
+            "responses": ["Hello!","Hey :-)","Hi there, what can I do for you?","Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["cya","See you later","Goodbye"
+            ],
+            "responses": ["See you later, thanks for visiting","Sad to see you go :(","Have a good day","Goodbye!","Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks","Thank you","Thats helpful","Thank's a lot!"
+            ],
+            "responses": ["Happy to help!","Any time1","My Pleasure"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": ["what is your name","what should I call you","whats your name?"
+            ],
+            "responses": ["You can call me Emo_Bot.","I'm Emo_Bot!"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke!",
+                "Tell me something funny1",
+                "Do you know a joke?"
+            ],
+            "responses": [
+                "I ate a clock yesterday, it was very time-consuming.",
+                "I can't believe I got fired from the calendar factory. All I did was take a day off!",
+                "I went to see the doctor about my short-term memory problems — the first thing he did was make me pay in advance",
+                "You have two parts of the brain, “left” and “right”. On the left side, there's nothing right and on the right side, there's nothing left."
+            ]
+        },
+        {
+            "tag": "ask_day",
+            "patterns": ["How was your day?", "How's your day going?", "What's up today?", "How's everything?"],
+            "responses": ["It's been good, thanks for asking!", "Pretty great so far, how about yours?", "Not bad, thanks! How about you?"],
+            "context_set": ""
+        },
+        {
+            "tag": "ask_mood",
+            "patterns": ["How are you feeling?", "How's your mood?", "Are you feeling okay?", "Feeling good today?"],
+            "responses": ["I'm doing well, thanks!", "Feeling positive today!", "I'm great, thanks for asking."],
+            "context_set": ""
+        },
+        {
+            "tag": "compliments",
+            "patterns": ["You're awesome!", "You're great!", "You're amazing!", "I appreciate you"],
+            "responses": ["Thank you! You're awesome too!", "You're making me blush!", "That's so kind of you, thank you!"],
+            "context_set": ""
+        },
+        {
+            "tag": "ask_hobbies",
+            "patterns": ["What are your hobbies?", "Do you have any hobbies?", "What do you like to do for fun?"],
+            "responses": ["I love chatting with you!, I'm curious about your hobbies too! What do you like to do?", "I'm into learning new things! What are your hobbies?"],
+            "context_set": ""
+        },
+        {
+            "tag": "ask_music_taste",
+            "patterns": ["What music do you like?", "Any favorite songs or bands?", "Do you listen to music?"],
+            "responses": ["I appreciate all kinds of music except the cringe ones obviously !!, I'm curious about your taste in music! What genres or artists do you enjoy?", "I kind of like chillhop and DHH, what kind do you prefer?"],
+            "context_set": ""
+        }
+    ]
+}
